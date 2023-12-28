@@ -153,7 +153,7 @@ call s:h('MatchParen',   {                                        'format': 'und
 hi! link ModeMsg SublimeYellow
 hi! link MoreMsg SublimeYellow
 hi! link NonText SublimeLightGrey
-call s:h('Normal',       { 'fg': s:white,       'bg': s:black                                  })
+call s:h('Normal',       { 'fg': s:white,                                                      })
 if has('nvim')
 	call s:h('NormalFloat',{ 'fg': s:white,       'bg': s:warmgrey                               })
 end
